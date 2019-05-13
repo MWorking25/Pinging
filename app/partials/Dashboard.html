@@ -1,0 +1,21 @@
+<div class="container-fluid" ng-init="NetworkStatus()">
+    Dashboard
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <th>#</th>
+                <th>IP</th>
+                <th>PORT</th>
+                <th>Status</th>
+            </thead>
+            <tbody>
+                <tr ng-repeat="obj in Connecteddevices">
+                    <td>{{$index +1}}</td>
+                    <td>{{obj.ip}}</td>
+                    <td>{{obj.port}}</td>
+                    <td>{{obj.status}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
