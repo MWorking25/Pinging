@@ -29,9 +29,12 @@
     "morgan": "^1.9.1",
     "multer": "^1.4.1",
     "mysql": "^2.17.1",
+    "net-snmp": "^1.2.2",
     "network": "^0.4.1",
     "network-list": "^1.1.5",
+    "node-schedule": "^1.3.2",
     "node-wifi": "^2.0.5",
+    "snmp-native": "^1.1.2",
     "socket.io": "^2.2.0",
     "telnet-client": "^1.0.0",
     "winston": "^3.2.1"
